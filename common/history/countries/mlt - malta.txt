@@ -1,0 +1,13 @@
+﻿COUNTRIES = {
+	c:MLT ?= { #### MALTA ####
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_reactionary = yes
+		
+		# Laws
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_subjecthood
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_religious_schools
+		
+	}
+}

@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:RUS ?= {
+		create_character = {
+			template = rus_catherine_01_template
+		}
+		create_character = {
+			template = rus_alexander_01_template
+		}
+	}
+}

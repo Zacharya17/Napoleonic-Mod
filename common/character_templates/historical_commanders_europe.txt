@@ -1,0 +1,21 @@
+﻿# Austria - AUS: in country_aus character templates
+
+# Bavaria - BAV
+
+# Belgium - BEL
+
+# Denmark - DEN
+
+# France - FRA
+
+# Netherlands - NET
+
+# Portugal - POR
+
+# Prussia - PRU
+
+# Sardinia-Piedmont - SAR
+
+# Saxony - SAX
+
+# Two Sicilies - SIC

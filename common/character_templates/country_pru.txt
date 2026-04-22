@@ -1,0 +1,40 @@
+﻿### Prussia character template file ###
+
+### Royals
+
+pru_frederik_william_02_template = {
+	first_name = Frederick-William
+	last_name = von_Hohenzollern
+	historical = yes
+	ig_leader = yes
+	ruler = yes
+	interest_group = ig_landowners
+	birth_date = 1744.9.25
+	dna = dna_pru_frederik_william_02
+	ideology = ideology_royalist
+	traits = {
+		reserved 
+	}
+	on_created = {
+		set_variable = is_married
+	}
+}
+frederik_william_03_template = {
+	first_name = Frederick-William
+	last_name = von_Hohenzollern
+	historical = yes
+	heir = yes
+	birth_date = 1770.8.3
+	dna = dna_king_frederik_william_03
+	interest_group = ig_armed_forces
+	ideology= ideology_royalist
+	traits = {
+		direct
+	}
+	on_created = {
+		set_variable = is_married
+	}
+	trait_generation = {
+		# nothing!
+	}
+}

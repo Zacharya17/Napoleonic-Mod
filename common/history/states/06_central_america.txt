@@ -1,0 +1,186 @@
+﻿STATES = {
+
+##### NEW SPAIN #####
+
+	s:STATE_SAN_SALVADOR = {
+		create_state = {
+			country = c:SC1
+			owned_provinces = { xB0D0C7 x3DB036 x107040 xCC1FCA }
+		}
+
+		add_homeland = cu:central_american
+	}
+	s:STATE_GUATEMALA = {
+		create_state = {
+			country = c:SC1
+			owned_provinces = { xDEC8D3 x464F6A x0F5049 xBD8628 xA9090A x78C465 xD9BEFE xD030C0 x42124E xB2E11E x50B040 x2D4EB6 x5449D0 x6D71DA x702CD9 x65C19A x30E01C x50B0C0 xC67219 xD176F3 xFA4B41 x011E0F }
+		}
+		create_state = {
+			country = c:GBR
+			owned_provinces = { xD0B040 x02073E x7D333F }
+		}
+
+		add_homeland = cu:central_american
+		add_homeland = cu:mayan
+	}
+	s:STATE_HONDURAS = {
+		create_state = {
+			country = c:SC1
+			owned_provinces = { x3C64D6 x9A0C09 x964591 x90EF40 xFA595E xE521E1 x52914C x907040 xC77E76 x5C25CB x55B06A xC27057 xE2A108 xD08FCB x63D186 xEF5C1F x0E5459 x98E7D7 x3D20D1 x10EF40 x600AC6 x907080 x528F3B }
+		}
+
+		add_homeland = cu:central_american
+	}
+	s:STATE_NICARAGUA = {
+		create_state = {
+			country = c:SC1
+			owned_provinces = { x95FC5A x9070C0 x9CDB2B xD50755 x10EFC0 x832DFB x074DD8 x68E7F3 xC9A998 x1070C0 xFD8FA1 x2245C0 x9EB0DC x4A4413 x107080 x02733F x745F00 x865E67 xBA0A50 }
+		}
+		create_state = {
+			country = c:MKT
+			owned_provinces = { x17F33B x6C22F2 x59D231 xAD9EE8 }
+		}
+
+		add_homeland = cu:central_american
+		add_homeland = cu:miskito
+	}
+	s:STATE_COSTA_RICA = {
+		create_state = {
+			country = c:SC1
+			owned_provinces = { x1A076A x32AA32 x10EF80 x4D3411 x478109 x535AE8 xD88369 x8342D1 x395FB6 xB0243F xEF90DC }
+		}
+
+		add_homeland = cu:central_american
+	}
+
+##### PANAMA #####
+
+	s:STATE_PANAMA = {
+		create_state = {
+			country = c:SC2
+			owned_provinces = { xBB820B x8A8A20 xD0EF40 x47C5F8 x50C29C x8537FE x357099 x717275 x910E14 x30B080 xB0A911 xC650E1 xB0B080 xEE835F }
+		}
+
+		add_homeland = cu:central_american
+		add_homeland = cu:afro_caribeno
+	}
+
+##### HAITI #####
+
+	s:STATE_HAITI = {
+		create_state = {
+			country = c:HAI
+			owned_provinces = { xC6C663 x2FC1FC x0E35C0 x4FE008 xB0B001 x1A20A4 xEA2C2D }
+			state_type = unincorporated
+		}
+
+		add_homeland = cu:afro_antillean
+	}
+	s:STATE_SANTO_DOMINGO = {
+		create_state = {
+			country = c:HAI
+			owned_provinces = { x317080 x41A862 x1785E8 xACBDD9 x7252EC x961483 x877F90 x907A0C }
+			state_type = unincorporated
+		}
+
+		add_homeland = cu:afro_caribeno
+		add_homeland = cu:caribeno
+	}
+
+##### PUERTO RICO #####
+
+	s:STATE_PUERTO_RICO = {
+		create_state = {
+			country = c:PCO
+			owned_provinces = { xB07080 x2160B9 }
+			state_type = unincorporated
+		}
+
+		add_homeland = cu:caribeno
+		add_homeland = cu:afro_caribeno
+	}
+
+##### THE BAHAMAS #####
+
+	s:STATE_BAHAMAS = {
+		create_state = {
+			country = c:GBR
+			owned_provinces = { x7A6FA3 x72C072 x4EBC79 x686279 }
+			state_type = unincorporated
+		}
+
+		add_homeland = cu:afro_antillean
+		add_homeland = cu:afro_caribbean
+	}
+
+##### THE WEST INDIES #####
+
+	s:STATE_WEST_INDIES = {
+		create_state = {
+			country = c:FRA
+			owned_provinces = { x33895B x9C52CA }
+			state_type = unincorporated
+		}
+		create_state = {
+			country = c:DEN
+			owned_provinces = { x30F080 }
+			state_type = unincorporated
+		}
+		create_state = {
+			country = c:GBR
+			owned_provinces = { x335389 x89337A x445B6C x5299CA x70F001 xF0F001 x707080 xD496B1 x446C63 x606060 x89334D }
+			state_type = unincorporated
+		}
+		create_state = {
+			country = c:NET
+			owned_provinces = { xB03080 xECC061 x1D9B6B }
+			state_type = unincorporated
+		}
+		create_state = {
+			country = c:SC2
+			owned_provinces = { xF07001 }
+		}
+
+		add_homeland = cu:afro_antillean
+		add_homeland = cu:afro_caribbean
+	}
+
+##### JAMAICA #####
+
+	s:STATE_JAMAICA = {
+		create_state = {
+			country = c:GBR
+			owned_provinces = { x535B49 x7070B8 x1E761E }
+			state_type = unincorporated
+		}
+
+		add_homeland = cu:afro_caribbean
+	}
+
+##### CUBA #####
+
+	s:STATE_WESTERN_CUBA = {
+		create_state = {
+			country = c:CUB
+			owned_provinces = { x4DD008 x61FC10 xB325C7 xDCAB5D xF3F2C9 xFCDEED }
+		}
+
+		add_homeland = cu:caribeno
+	}
+	s:STATE_EASTERN_CUBA = {
+		create_state = {
+			country = c:CUB
+			owned_provinces = { x0DA38C x30B001 x519343 x69C041 xB48FF1 xE70FA4 }
+		}
+
+		add_homeland = cu:caribeno
+	}
+	s:STATE_CENTRAL_CUBA = {
+		create_state = {
+			country = c:CUB
+			owned_provinces = { x152D1C x20EFEA x58C211 x9957D8 xA70607 xC3EB7D xC464AE xD810EC xEBE1C7 xFE4123 }
+		}
+
+		add_homeland = cu:caribeno
+	}
+}

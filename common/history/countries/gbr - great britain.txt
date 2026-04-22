@@ -1,0 +1,81 @@
+﻿COUNTRIES = {
+	c:GBR ?= { #### GREAT BRITAIN ####
+		set_next_election_date = 1796.6.29
+		
+		effect_starting_technology_tier_1_tech = yes
+		
+		set_tax_level = medium
+		
+		# Laws
+		activate_law = law_type:law_landed_voting
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_dedicated_police
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_charitable_health_system
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_poor_laws
+		activate_law = law_type:law_migration_controls
+		activate_law = law_type:law_colonial_slavery
+		
+		set_variable = free_elections_var
+		active_law:lawgroup_distribution_of_power ?= {
+			add_amendment = {
+				type = amendment_tradition_of_free_elections
+				sponsor = PREV.ig:ig_intelligentsia
+			}
+		}
+		
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 2
+		}
+		
+		set_institution_investment_level = {
+			institution = institution_schools
+			level = 3
+		}
+
+		add_company = company_type:company_hbc
+		company:company_hbc = {
+			set_company_establishment_date = 1670.5.2
+			set_company_state_region = s:STATE_HOME_COUNTIES
+			add_owned_country = c:HBC
+		}
+		add_company = company_type:company_east_india_company
+		company:company_east_india_company = {
+			set_company_establishment_date = 1600.12.31
+			set_company_state_region = s:STATE_HOME_COUNTIES
+			add_owned_country = c:BIC
+		}
+	}
+	
+	c:IRE ?= { #### IRELAND ####
+		effect_starting_technology_tier_1_tech = yes
+		
+		set_tax_level = medium
+		
+		# Laws
+		activate_law = law_type:law_landed_voting
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_dedicated_police
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_charitable_health_system
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_poor_laws
+		activate_law = law_type:law_migration_controls
+		
+	}
+}

@@ -1,0 +1,21 @@
+﻿COUNTRIES = {
+	c:HBC ?= { #### HUDSON'S BAY COMPANY ####
+		effect_starting_technology_tier_2_tech = yes
+		
+		# Laws
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_racial_segregation # George Simpson's policies regarding the Métis were harsh
+		activate_law = law_type:law_total_separation
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_frontier_colonization
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_slave_trade
+		
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 2
+		}
+	}
+}

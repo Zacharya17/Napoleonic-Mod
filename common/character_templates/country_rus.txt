@@ -1,0 +1,46 @@
+﻿### Russia character template file ###
+
+### Royals
+
+rus_catherine_01_template = {
+	first_name = Catherine
+	last_name = Romanov
+	historical = yes
+	culture = primary_culture
+	interest_group = ig_rural_folk
+	ideology = ideology_reformer
+	ruler = yes
+	female = yes
+	birth_date = 1729.5.2
+	dna = dna_rus_catherine
+	traits = {
+		expert_political_operator
+		persistent
+		ambitious
+	}
+	on_created = {
+		set_variable = is_married
+	}
+}
+
+rus_alexander_01_template = {
+	first_name = Alexander
+	last_name = Romanov
+	historical = yes
+	culture = primary_culture
+	interest_group = ig_landowners
+	ideology = ideology_traditionalist
+	heir = yes
+	birth_date = 1777.12.23
+	dna = dna_rus_alexander_01
+	traits = {
+		arrogant
+		pious
+	}
+	on_created = {
+		set_variable = is_married
+	}
+	trait_generation = {
+
+	}
+}

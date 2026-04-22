@@ -1,0 +1,28 @@
+﻿BEL = { # Belgium
+	dynamic_country_name = {
+		name = dyn_c_united_belgian_states
+		adjective = BEL_ADJ
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+			NOT = { coa_def_communist_flag_trigger = yes }
+		}
+	}
+	dynamic_country_name = {
+		name = NET
+		adjective = NET_ADJ
+		use_overlord_prefix = yes
+
+		is_main_tag_only = yes
+		priority = 0
+
+		trigger = {
+			scope:actor ?= {
+				is_subject = yes
+			}
+		}
+	}
+}

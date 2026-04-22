@@ -1,0 +1,7 @@
+﻿CHARACTERS = {
+	c:SPA ?= {
+		create_character = {
+			template = spa_charles_04_template
+		}
+	}
+}

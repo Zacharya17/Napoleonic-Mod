@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:PRU ?= {
+		create_character = {
+			template = pru_frederik_william_02_template			
+		}
+		create_character = {
+			template = frederik_william_03_template
+		}
+	}
+}

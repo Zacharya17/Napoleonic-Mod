@@ -1,0 +1,7 @@
+﻿CHARACTERS = {
+	c:AUS ?= {
+		create_character = {
+			template = aus_joseph_02_template
+		}
+	}
+}

@@ -1,0 +1,21 @@
+﻿### Spain character template file ###
+
+### Royals
+
+spa_charles_04_template = {
+    first_name = Charles
+    last_name = de_Borbon
+    historical = yes
+    culture = primary_culture
+    ruler = yes
+    birth_date = 1748.11.11
+    dna = dna_spa_charles_04
+    interest_group = ig_devout
+    ideology = ideology_moderate
+    traits = {
+        inept 
+    }
+	on_created = {
+		set_variable = is_married
+	}
+}

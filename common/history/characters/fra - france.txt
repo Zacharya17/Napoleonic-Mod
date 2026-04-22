@@ -1,0 +1,15 @@
+﻿CHARACTERS = {
+	c:FRA = {
+		create_character = {
+			template = fra_napoleon_bonapart_template
+			on_created = {
+				set_variable = {
+					name = bonapartist_leader
+				}	
+			}
+		}
+		create_character = {
+			template = fra_maximilien_robespierre_template
+		}
+	}
+}

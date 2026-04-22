@@ -1,0 +1,51 @@
+﻿### France character template file ###
+
+fra_napoleon_bonapart_template = {
+	first_name = Napoleon
+	last_name = Bonaparte
+    historical = yes
+    culture = cu:french
+    religion = catholic
+	is_agitator = yes
+    birth_date = 1769.8.15
+    interest_group = ig_armed_forces
+    ideology = ideology_bonapartist
+    dna = dna_fra_napoleon_01
+    traits = {
+		expert_offensive_planner
+		innovative
+		ambitious
+		celebrity_commander
+		expert_political_operator
+		persistent
+		arrogant
+		meticulous
+		surveyor
+	}
+		trait_generation = {
+
+	}
+}
+
+fra_maximilien_robespierre_template = {
+	first_name = Maximilien
+	last_name = Robespierre
+    historical = yes
+	culture = primary_culture
+    religion = atheist
+	ig_leader = yes
+    birth_date = 1758.5.06
+    interest_group = ig_intelligentsia
+    ideology = ideology_radical
+    dna = dna_fra_maximillien_robespierre
+    traits = { 
+		ambitious
+		cruel
+		arrogant
+		bigoted
+		erudite
+	}
+	trait_generation = {
+
+	}
+}

@@ -1,0 +1,44 @@
+﻿COUNTRIES = {
+	c:FRA ?= { #### FRANCE ####
+		effect_starting_technology_tier_1_tech = yes
+
+		set_tax_level = medium
+
+		# Laws
+		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_total_separation
+		activate_law = law_type:law_elected_bureaucrats
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_national_guard
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_homesteading
+		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_dedicated_police
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_poor_laws
+		activate_law = law_type:law_colonial_slavery
+
+		set_institution_investment_level = {
+			institution = institution_schools
+			level = 2
+		}
+
+		add_modifier = {
+			name = modifier_french_revolutution
+			years = 23
+		}
+
+		ig:ig_intelligentsia ?= {
+			add_ruling_interest_group = yes
+		}
+
+		add_company = company_type:company_dmc
+		company:company_dmc = {
+			set_company_establishment_date = 1746.1.1
+			set_company_state_region = s:STATE_ALSACE_LORRAINE
+		}
+	}
+}

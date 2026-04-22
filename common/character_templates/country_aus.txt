@@ -1,0 +1,22 @@
+﻿### Austria character template file ###
+
+### Royals
+
+aus_joseph_02_template = {
+    first_name = Joseph
+    last_name = von_Habsburg
+    historical = yes
+	ruler = yes
+	culture = primary_culture
+    interest_group = ig_landowners
+	birth_date = 1741.3.13
+    dna = dna_aus_joseph_02
+    ideology = ideology_humanitarian_royalist
+    traits = {
+        erudite
+        reckless
+    }
+   on_created = {
+        set_variable = is_married       
+    }
+}

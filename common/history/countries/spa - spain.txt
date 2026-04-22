@@ -1,0 +1,214 @@
+﻿COUNTRIES = {
+	c:SPA ?= { #### SPAIN ####
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		set_tax_level = medium
+		
+		# Laws
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_subjecthood
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_national_guard # Urban Guard
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_latifundias
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_charitable_health_system
+		activate_law = law_type:law_colonial_slavery # Slavery in Spanish colonies was only abolished in 1848
+		
+		ig:ig_armed_forces ?= {
+			add_ruling_interest_group = yes
+			add_ideology = ideology_liberal_praetorian
+		}
+	}
+	
+	c:SC1 ?= {  #### NEW SPAIN ####
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		# Laws
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_subjecthood
+		activate_law = law_type:law_extraction_economy
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_manorialism
+		activate_law = law_type:law_slave_trade
+		
+		active_law:lawgroup_citizenship ?= { # Subjecthood
+			add_amendment = {
+				type = amendment_racialized_subjecthood
+				sponsor = PREV.ig:ig_armed_forces
+			}
+		}
+	}
+	
+	c:SC2 ?= {  #### NEW GRANADA ####
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		# Laws
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_subjecthood
+		activate_law = law_type:law_extraction_economy
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_manorialism
+		activate_law = law_type:law_slave_trade
+		
+		active_law:lawgroup_citizenship ?= { # Subjecthood
+			add_amendment = {
+				type = amendment_racialized_subjecthood
+				sponsor = PREV.ig:ig_armed_forces
+			}
+		}
+	}
+	
+	c:SC3 ?= {  #### PERU ####
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		# Laws
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_subjecthood
+		activate_law = law_type:law_extraction_economy
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_manorialism
+		activate_law = law_type:law_slave_trade
+		
+		active_law:lawgroup_citizenship ?= { # Subjecthood
+			add_amendment = {
+				type = amendment_racialized_subjecthood
+				sponsor = PREV.ig:ig_armed_forces
+			}
+		}
+	}
+	
+	c:SC3 ?= {  #### RIO DE LA PLATA ####
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		# Laws
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_subjecthood
+		activate_law = law_type:law_extraction_economy
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_manorialism
+		activate_law = law_type:law_slave_trade
+		
+		active_law:lawgroup_citizenship ?= { # Subjecthood
+			add_amendment = {
+				type = amendment_racialized_subjecthood
+				sponsor = PREV.ig:ig_armed_forces
+			}
+		}
+	}
+	
+	c:CUB ?= {  #### CUBA ####
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		# Laws
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_subjecthood
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_manorialism
+		activate_law = law_type:law_slave_trade
+		
+		active_law:lawgroup_citizenship ?= { # Subjecthood
+			add_amendment = {
+				type = amendment_racialized_subjecthood
+				sponsor = PREV.ig:ig_armed_forces
+			}
+		}
+	}
+	
+	c:PCO ?= {  #### PUERTO RICO ####
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		# Laws
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_subjecthood
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_manorialism
+		activate_law = law_type:law_slave_trade
+		
+		active_law:lawgroup_citizenship ?= { # Subjecthood
+			add_amendment = {
+				type = amendment_racialized_subjecthood
+				sponsor = PREV.ig:ig_armed_forces
+			}
+		}
+	}
+	
+	c:PHI ?= {  #### PHILIPPINES ####
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		# Laws
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_subjecthood
+		activate_law = law_type:law_extraction_economy
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_manorialism
+		activate_law = law_type:law_slave_trade
+		
+		active_law:lawgroup_citizenship ?= { # Subjecthood
+			add_amendment = {
+				type = amendment_racialized_subjecthood
+				sponsor = PREV.ig:ig_armed_forces
+			}
+		}
+	}
+	
+	c:FLR ?= {  #### FLORIDA ####
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		# Laws
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_subjecthood
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_manorialism
+		activate_law = law_type:law_slave_trade
+		
+		active_law:lawgroup_citizenship ?= { # Subjecthood
+			add_amendment = {
+				type = amendment_racialized_subjecthood
+				sponsor = PREV.ig:ig_armed_forces
+			}
+		}
+	}
+	
+	c:LOU ?= {  #### LOUISIANA ####
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		# Laws
+		activate_law = law_type:law_colonial_administration
+		activate_law = law_type:law_autocracy
+		activate_law = law_type:law_subjecthood
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_manorialism
+		activate_law = law_type:law_slave_trade
+		
+		active_law:lawgroup_citizenship ?= { # Subjecthood
+			add_amendment = {
+				type = amendment_racialized_subjecthood
+				sponsor = PREV.ig:ig_armed_forces
+			}
+		}
+	}
+}

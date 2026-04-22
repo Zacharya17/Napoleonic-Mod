@@ -1,0 +1,89 @@
+﻿POWER_BLOCS = {
+	c:AUS = {
+		create_power_bloc = {
+			name = HOLY_ROMAN_EMPIRE
+
+			map_color = { 250 250 245 }
+
+			founding_date = 962.2.2
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+
+		}
+	}
+	c:SPA = {
+		create_power_bloc = {
+			name = SPANISH_EMPIRE
+
+			map_color = hsv360{ 38  97  83 }
+
+			founding_date = 1492.10.12
+			identity = identity_sovereign_empire
+			principle = principle_exploit_members_1
+
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+			power_bloc = {
+				add_principle = principle_colonial_offices_2
+			}
+		}
+	}
+	c:TUR = {
+		create_power_bloc = {
+			name = DEVLET_I__ALIYE
+
+			map_color = { 170 206 162 }
+
+			founding_date = 1453.5.29
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+
+			member = c:JAB
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+			power_bloc = {
+				add_principle = principle_external_trade_1
+			}
+		}
+	}
+	c:GBR = {
+		create_power_bloc = {
+			name = BRITISH_EMPIRE
+			map_color = hsv{ 0.99  0.7  0.9 }
+
+			founding_date = 1784.5.12 # Treaty of Paris (1783) comes into effect
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+
+			# subjects are automatically part of the bloc
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+			power_bloc = {
+				add_principle = principle_colonial_offices_2
+			}
+		}
+	}
+	c:NAG = {
+		create_power_bloc = {
+			name = MARATHA_CONFEDERACY
+
+			map_color = { 215 86 0 }
+
+			founding_date = 1674.6.6
+			identity = identity_trade_league
+			principle = principle_internal_trade_1
+
+			member = c:MUG
+
+		}
+	}
+}

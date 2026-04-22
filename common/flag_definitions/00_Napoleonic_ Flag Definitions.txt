@@ -1,0 +1,184 @@
+﻿FRA = { # France
+	flag_definition = {
+		coa = FRA
+		subject_canton = FRA
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = FRA_subject
+		priority = 1
+	}
+	flag_definition = {
+		coa = FRA
+		subject_canton = FRA
+		allow_overlord_canton = yes
+		overlord_canton_scale = { 0.337 0.337 }
+		priority = 10
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = FRA_bourbon
+		subject_canton = FRA_bourbon
+		priority = 30
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = FRA_subject
+		trigger = {
+			scope:actor ?= {
+				has_law = law_type:law_monarchy
+				has_variable = legitimist_restoration_var
+			}
+		}
+	}
+	flag_definition = {
+		coa = FRA_absolute_monarchy
+		subject_canton = FRA_absolute_monarchy
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = FRA_subject
+		priority = 25
+		trigger = {
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = FRA_second_empire
+		subject_canton = FRA
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = FRA_subject
+		priority = 30
+		trigger = {
+			scope:actor ?= {
+				coa_def_absolute_monarchy_flag_trigger = yes
+				has_variable = bonapartist_restoration_var
+			}
+		}
+	}
+	flag_definition = {
+		coa = FRA_theocracy
+		subject_canton = FRA_theocracy
+		priority = 20
+		trigger = {
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = FRA_communist
+		subject_canton = FRA_communist_canton
+		priority = 1500
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = FRA_military
+		subject_canton = FRA_military
+		priority = 1500
+		trigger = {
+			coa_def_military_junta_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = FRA_fascist
+		subject_canton = FRA_fascist
+		priority = 1550
+		trigger = {
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+}
+
+NET = { # Netherlands
+	flag_definition = {
+		coa = NET
+		allow_overlord_canton = yes	
+		coa_with_overlord_canton = NET_subject		
+		priority = 1
+	}
+	flag_definition = {
+		coa = NET_princes_flag
+		priority = 5
+		trigger = { 
+			coa_def_autocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = NET_dictatorship
+		subject_canton = NET_dictatorship
+		priority = 20
+		trigger = {
+			coa_def_dictatorship_flag_trigger = yes
+		}
+	}	
+	flag_definition = {
+		coa = NET_fascist
+		subject_canton = NET_fascist
+		priority = 1500
+		trigger = { 
+			coa_def_fascist_flag_trigger = yes
+		}
+	}			
+}
+
+RUS = { # Russia
+	flag_definition = {
+		coa = RUS_imperial
+		allow_overlord_canton = yes
+		subject_canton = RUS_imperial
+		priority = 1
+	}
+	flag_definition = {
+		coa = RUS_republic
+		subject_canton = RUS
+		priority = 20
+		trigger = {
+			coa_def_absolute_monarchy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = RUS_republic
+		subject_canton = RUS_republic
+		priority = 10
+		trigger = {
+			coa_def_republic_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = RUS_soviet_union
+		priority = 1500 # need to override the DEFAULT
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = RUS_soviet_technocracy
+		priority = 1750 # need to override the DEFAULT
+		trigger = {
+			coa_def_communist_flag_trigger = yes
+			scope:actor ?= {
+				has_law = law_type:law_technocracy
+			}
+		}
+	}
+	flag_definition = {
+		coa = RUS_fascist
+		subject_canton = RUS_fascist
+		priority = 1500
+		trigger = {
+			coa_def_fascist_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = RUS_theocracy
+		subject_canton = RUS_theocracy
+		priority = 20
+		trigger = {
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = RUS_nihilist
+		priority = 1500 # need to override the DEFAULT
+		trigger = {
+			coa_def_nihilist_flag_trigger = yes
+		}
+	}
+}

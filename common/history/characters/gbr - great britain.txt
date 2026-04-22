@@ -1,0 +1,10 @@
+﻿CHARACTERS = {
+	c:GBR ?= {
+		create_character = {
+			template = gbr_george_03_template
+		}
+		create_character = {
+			template = gbr_george_04_template
+		}
+	}
+}

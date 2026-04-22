@@ -1,0 +1,13 @@
+﻿CHARACTERS = {
+	c:USA ?= {
+		create_character = {
+			template = usa_george_washington
+		}
+		create_character = {
+			template = usa_thomas_jefferson
+		}
+		create_character = {
+			template = usa_john_adams
+		}
+	}
+}

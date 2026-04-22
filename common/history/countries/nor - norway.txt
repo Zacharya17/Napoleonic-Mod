@@ -1,0 +1,23 @@
+﻿COUNTRIES = {
+	c:NOR ?= { #### NORWAY ####
+		effect_starting_politics_liberal = yes
+		effect_starting_technology_tier_2_tech = yes
+		
+		set_tax_level = medium	
+		
+		# Laws 
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_agrarianism
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_colonial_exploitation
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_religious_schools
+    	activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_colonial_slavery
+		
+	}
+}
