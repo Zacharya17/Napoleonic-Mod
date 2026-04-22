@@ -1,0 +1,91 @@
+﻿l_english:
+
+ AHT: "Atna Nenn'"
+ AHT_ADJ: "Ahtna"
+
+ CSW:0 "Chickasaw"
+ CSW_ADJ:0 "Chickasaw"
+
+ DGB: "Dogrib"
+ DGB_ADJ: "Dogrib"
+ DKL: "Dakelh"
+ DKL_ADJ: "Dakelh"
+ DNZ: "Dane-zaa"
+ DNZ_ADJ: "Dane-zaa"
+
+ FLT:0 "Flathead"
+ FLT_ADJ:0 "Flathead"
+
+ GVT:0 "Gros Ventre"
+ GVT_ADJ:0 "Aaniiih"
+ GWC: "Gwich'in"
+ GWC_ADJ: "Gwich'in"
+
+ HDA: "Haida Gwaii"
+ HDA_ADJ: "Haida"
+ HOK:0 "Hokan"
+ HOK_ADJ:0 "Hokan"
+
+ INV: "Inuit Nunangat" #Nunangat
+ INV_ADJ: "Inuit"
+
+ KLA:0 "Klamath"
+ KLA_ADJ:0 "Klamathan"
+ KTN:0 "Kutenai"
+ KTN_ADJ:0 "Ktunaxa"
+ KYK: "Koyukon"
+ KYK_ADJ: "Koyukon"
+
+ LLT: "St'at'imc"
+ LLT_ADJ: "St'at'imc"
+
+ PIU:0 "Northern Paiute"
+ PIU_ADJ:0 "North Paiute"
+
+ SAL:0 "Salish"
+ SAL_ADJ:0 "Salishan"
+ SHP:0 "Sahaptin"
+ SHP_ADJ:0 "Sahaptian"
+ SPI: "Southern Paiute"
+ SPI_ADJ: "South Paiute"
+ SRN:0 "Taaqtam"
+ SRN_ADJ:0 "Takic"
+ STU: "Sahtu"
+ STU_ADJ: "Sahtu"
+ SVY: "Dene"
+ SVY_ADJ: "Dene"
+ SWP: "Shuswap"
+ SWP_ADJ: "Shuswap"
+ SYX: "Syilx"
+ SYX_ADJ: "Syilx"
+
+ TLT: "Tahltan"
+ TLT_ADJ: "Tahltan"
+ TNN: "Tanana"
+ TNN_ADJ: "Tanana"
+ TTC: "Tutchone"
+ TTC_ADJ: "Tutchone"
+
+ WKS: "Wakashan"
+ WKS_ADJ: "Waskashan"
+
+ YKM: "Yakima"
+ YKM_ADJ: "Yakima"
+ YOK:0 "Yokut"
+ YOK_ADJ:0 "Yokut"
+ YUR:0 "Yurok"
+ YUR_ADJ:0 "Yurok"
+
+ usfp_ARK: "Arikara-Hidatsa-Mandan"
+ usfp_ARK_ADJ: "Three Tribes"
+
+ usfp_IPQ: "Iñupiat Nunaat"
+ usfp_IPQ_ADJ: "Iñupiat"
+ usfp_IWY: "Ioway"
+ usfp_IWY_ADJ: "Ioway"
+ 
+ usfp_MDC: "Modoc"
+ usfp_MDC_ADJ: "Modoc"
+ 
+ usfp_TSI: "Tsimshian"
+ usfp_TSI_ADJ: "Tsimshian"

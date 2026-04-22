@@ -1,0 +1,179 @@
+﻿l_english:
+
+##### HOLY ROMAN EMPIRE #####
+
+ AAH:0 "Aachen"
+ ACH_ADJ:0 "Aachener"
+ AUG:0 "Augsburg"
+ AUG_ADJ:0 "Augsburgian"
+ 
+ BAM:0 "Bamberg"
+ BAM_ADJ:0 "Bamberger"
+ BAY:0 "Bayreuth"
+ BAY_ADJ:0 "Bayreuther"
+ 
+ CLE:0 "Cologne"
+ CLE_ADJ:0 "Colognian"
+ 
+ DRT:0 "Dortmund"
+ DRT_ADJ:0 "Dortmunder"
+ 
+ GSR:0 "Goslar"
+ GSR_ADJ:0 "Goslarite"
+ 
+ LGE:0 "Liege"
+ LGE_ADJ:0 "Liegian"
+
+ MIZ:0 "Mainz"
+ MIZ_ADJ:0 "Mainzian"
+ 
+ NUR:0 "Nuremberg"
+ NUR_ADJ:0 "Nuremberger"
+ 
+ REG:0 "Regensburg"
+ REG_ADJ:0 "Regensburger"
+ 
+ SLZ:0 "Salzburg"
+ SLZ_ADJ:0 "Salzburgian"
+ 
+ THR:0 "Thuringia"
+ THR_ADJ:0 "Thuringian"
+ TRR:0 "Trier"
+ TRR_ADJ:0 "Trierian"
+ 
+ ULM:0 "Ulm"
+ ULM_ADJ:0 "Ulmer"
+ 
+ WRZ:0 "Wurzburg"
+ WRZ_ADJ:0 "Wurzburgian"
+
+##### ITALY #####
+
+ GEN:0 "Genova"
+ GEN_ADJ:0 "Genovian"
+ 
+ SLY:0 "Sicily"
+ SLY_ADJ:0 "Sicilian"
+
+##### CAUCASUS #####
+ 
+ AVR:0 "Avars"
+ AVR_ADJ:0 "Avar"
+ 
+ BAK:0 "Balkars"
+ BAK_ADJ:0 "Balkar"
+ 
+ KAR:0 "Karachays"
+ KAR_ADJ:0 "Karachay"
+ KBR:0 "Kabardia"
+ KBR_ADJ:0 "Kabardian"
+ 
+ OSS:0 "Ossetians"
+ OSS_ADJ:0 "Ossetian"
+ 
+ TRK:0 "Tarki"
+ TRK_ADJ:0 "Tarkian"
+ 
+##### AFRICA #####
+ 
+ DGL:0 "Dongola"
+ DGL_ADJ:0 "Dongolan"
+ 
+ MBI:0 "Medri Bahri"
+ MBI_ADJ:0 "Medri Bahrin"
+
+##### INDIA #####
+ 
+ KDY:0 "Kandy"
+ KDY_ADJ:0 "Kandyan"
+ KGR:0 "Kangra"
+ KGR_ADJ:0 "Kangri"
+ 
+ MTH:0 "Marathas"
+ MTH_ADJ:0 "Maratha"
+ 
+ NGP:0 "Nagpur"
+ NGP_ADJ:0 "Nagpuri"
+ 
+ RKD:0 "Rohilkhand"
+ RKD_ADJ:0 "Rohilla"
+ 
+ SMR:0 "Sirmur"
+ SMR_ADJ:0 "Sirmuri"
+
+##### AMERICAS #####
+ 
+ CHA:0 "Choctaw"
+ CHA_ADJ:0 "Choctaw"
+ 
+ DRD:0 "Durdzuks"
+ DRD_ADJ:0 "Durdzuk"
+ 
+ OSA_ADJ:0 "Osage"
+ OSA:0 "Osage"
+ 
+ QUA:0 "Quapaw"
+ QUA_ADJ:0 "Quapaw"
+ 
+ SAI:0 "South Atlantic Islands"
+ SAI_ADJ:0 "South Atlantic Islander"
+
+ UIN:0 "United Indian Nations"
+ UIN_ADJ:0 "United Indian"
+ 
+##### AUSTRALIA #####
+
+ ARC:0 "Arandic"
+ ARC_ADJ:0 "Arandic"
+ 
+ GRW:0 "Garawa"
+ GRW_ADJ:0 "Garawa"
+ 
+ KAC:0 "Karnic"
+ KAC_ADJ:0 "Karnic"
+ KIR:0 "Kulinic"
+ KIR_ADJ:0 "Kulinic"
+ KTU:0 "Kartu"
+ KTU_ADJ:0 "Kartu"
+ 
+ MUR:0 "Murri"
+ MUR_ADJ:0 "Murri"
+ MYI:0 "Mayi"
+ MYI_ADJ:0 "Mayi"
+ 
+ NGD:0 "Ngayarda"
+ NGD_ADJ:0 "Ngayarda"
+ NGH:0 "Ngapuhi"
+ NGH_ADJ:0 "Ngapuhi"
+ NGK:0 "Ngati Kahungunu"
+ NGK_ADJ:0 "Ngati Kahungunu"
+ NGR:0 "Ngati Ranginui"
+ NGR_ADJ:0 "Ngati Ranginui"
+ NGW:0 "Ngati Awa"
+ NGW_ADJ:0 "Ngati Awa"
+ NGY:0 "Ngarinyeric-Yithayithic"
+ NGY_ADJ:0 "Ngarinyero-Yithayithian"
+ NYP:0 "Ngumpin-Yapa"
+ NYP_ADJ:0 "Ngumpino-Yapan"
+ 
+ PLW:0 "Palawa"
+ PLW_ADJ:0 "Palawan"
+ PMN:0 "Paman"
+ PMN_ADJ:0 "Paman"
+
+ THY:0 "Thura-Yura"
+ THY_ADJ:0 "Thuro-Yuran"
+ TNI: "Tainui"
+ TNI_ADJ: "Tainui"
+ 
+ WIR:0 "Wiradhuric"
+ WIR_ADJ:0 "Wiradhuric"
+ WKC:0 "Waka-Kabic"
+ WKC_ADJ:0 "Wako-Kabican"
+ WRN:0 "Worrorran"
+ WRN_ADJ:0 "Worrorran"
+ 
+ YKC:0 "Yuin-Kuric"
+ YKC_ADJ:0 "Yuin-Kuric"
+ YYW:0 "Yanyuwa"
+ YYW_ADJ:0 "Yanyuwa"
