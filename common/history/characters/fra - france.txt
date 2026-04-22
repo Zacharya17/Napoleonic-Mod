@@ -11,5 +11,8 @@
 		create_character = {
 			template = fra_maximilien_robespierre_template
 		}
+		create_character = {
+			template = fra_louis_xvi_template
+		}
 	}
 }

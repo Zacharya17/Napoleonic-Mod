@@ -5,7 +5,7 @@
 		set_tax_level = medium
 
 		# Laws
-		activate_law = law_type:law_parliamentary_republic
+		activate_law = law_type:law_monarchy
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_total_separation
 		activate_law = law_type:law_elected_bureaucrats

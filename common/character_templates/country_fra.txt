@@ -4,7 +4,7 @@ fra_napoleon_bonapart_template = {
 	first_name = Napoleon
 	last_name = Bonaparte
     historical = yes
-    culture = cu:french
+    culture = cu:corsican
     religion = catholic
 	is_agitator = yes
     birth_date = 1769.8.15
@@ -13,6 +13,7 @@ fra_napoleon_bonapart_template = {
     dna = dna_fra_napoleon_01
     traits = {
 		expert_offensive_planner
+		expert_artillery_commander
 		innovative
 		ambitious
 		celebrity_commander
@@ -47,5 +48,26 @@ fra_maximilien_robespierre_template = {
 	}
 	trait_generation = {
 
+	}
+}
+
+fra_louis_xvi_template = {
+	first_name = louis
+	last_name = capet
+    historical = yes
+	ruler = yes
+	culture = primary_culture
+    religion = catholic
+	ig_leader = yes
+    birth_date = 1774.5.10
+    interest_group = ig_landowners
+    ideology = ideology_royalist
+    traits = { 
+		
+	}
+	trait_generation = {
+		grifter
+		inexperienced
+		expensive_tastes
 	}
 }
